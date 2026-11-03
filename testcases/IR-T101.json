@@ -1,0 +1,10 @@
+{
+  "key": "IR-T101",
+  "title": "Login with valid credentials",
+  "precondition": "User 'qa_user' exists and is active",
+  "steps": [
+    {"action": "Open https://example.com/login", "expected": "Login page is shown"},
+    {"action": "Enter username qa_user and password Secret@123", "expected": "Fields accept input"},
+    {"action": "Click Sign in", "expected": "Dashboard is shown with welcome banner"}
+  ]
+}
